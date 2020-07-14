@@ -18,10 +18,8 @@ function inputHandler(answer){
     }
 }
 
-
 rl.question("Input your medicine license number: ", inputHandler) 
 
 
 // function inputHandler(){
-
 // }

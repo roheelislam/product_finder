@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "start": "node src/index.js",
+    "start": "node tests/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "apprentices",
   "license": "ISC",
   "devDependencies": {
+    "mocha": "^8.0.1",
     "nodemon": "^2.0.4"
   }
 }
