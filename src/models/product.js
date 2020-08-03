@@ -10,7 +10,7 @@ class product {
 
     tostring() {
         return `
-        PL NUmber: ${this.plNumber}
+        PL Number: ${this.plNumber}
         Name: ${this.name}
         Dose: ${this.dose}
         Substance: ${this.substance}
