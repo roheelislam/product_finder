@@ -1,6 +1,6 @@
-const product = require("./models/product.js")
+const product = require("../models/product.js")
 
-function getProductsData(){
+function getData(){
 product1 = new product("PL123456", "name", "dose", "substance", "url" )
 product2 = new product("PL513872", "name", "dose", "substance", "url" )
 product3 = new product("PL999999", "name", "dose", "substance", "url" )
@@ -17,4 +17,4 @@ for (let i = 0; i < products.length; i++){
     return productObjects
 }
 
-module.exports = getProductsData
+module.exports = getData
